@@ -1,0 +1,73 @@
+body{
+    background-image: url('https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg');
+}
+
+
+.box{
+    background: rgb(203,12,198);
+    background: linear-gradient(120deg, rgba(203,12,198,1) 0%, rgba(238,18,18,1) 23%, rgba(0,212,255,1) 100%);
+    width: 600px;
+    height: 800px;
+    border: 20px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#poster{
+    height: 250px;
+    width: 250px;
+   
+}
+
+#title{
+    
+    width: 250px;
+    height: 100px;
+}
+
+#bt{
+    margin-top: 10px;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #fd5c63;
+    color: white;
+    border-color: white;
+}
+
+#btsave{
+    margin-top: 10px;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #fd5c63;
+    color: white;
+    border-color: white;
+}
+
+#btshow{
+    margin-top: 10px;
+    font-weight: bold;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #fd5c63;
+    color: white;
+    border-color: white;
+}
